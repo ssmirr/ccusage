@@ -3,6 +3,9 @@
 	"type": "module",
 	"version": "18.0.11",
 	"private": true,
+	"bin": {
+		"ccusage-codex": "./apps/codex/dist/index.js"
+	},
 	"workspaces": [
 		"apps/*",
 		"docs"
